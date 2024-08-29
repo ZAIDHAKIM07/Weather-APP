@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Detection App</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="weather-app" class="mt-5">
+            <h1 class="text-center">Weather Detection App</h1>
+            <div id="location-weather" class="text-center my-4"></div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="city-input" placeholder="Enter city name or city,country code">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="search-button">Search</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <select class="form-control" id="language-select">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                    <option value="it">Italian</option>
+                    <option value="ru">Russian</option>
+                    <option value="zh_cn">Chinese (Simplified)</option>
+                    <option value="ja">Japanese</option>
+                    <option value="ko">Korean</option>
+                </select>
+            </div>
+            <div id="error-message" class="text-danger text-center"></div>
+            <div id="weather-results" class="row"></div>
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item"><a class="page-link" href="#" id="prev-page">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#" id="next-page">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* Global Styles */
+#location-weather {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+#location-weather h3 {
+    color: #555;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Input Styles */
+.form-control {
+    border-radius: 20px !important;
+}
+
+.input-group-append button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Language Select Styles */
+#language-select {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+
+/* Error Message Styles */
+#error-message {
+    margin-top: 10px;
+}
+
+/* Weather Card Styles */
+.weather-card {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    margin-bottom: 0;
+}
+
+/* Pagination Styles */
+.pagination {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Pagination Link Styles */
+.page-link {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.page-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: default;
+}
+
+/* Pagination Active Link Styles */
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.page-item.active .page-link:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Top Page Styles */
+#location-weather {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
